@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Phenomena";
+    src: url("fonts/phenomena/Phenomena-Regular.otf");
+}
+body{
+    font-family: "Phenomena";
+    overflow-x: hidden;
+}
+button{
+    background-color: #f3e525;
+    color: #282828;
+    border-color: #282828;
+}
+button:hover{
+    background-color: #282828;
+    color: #f3e525;
+    border-color: #f3e525;
+}
+button.button-primary, 
+button.button-primary:focus{
+    background-color: #282828;
+    color: #f3e525;
+    border-color: #f3e525;
+}
+button.button-primary:hover{
+    background-color: #f3e525;
+    color: #282828;
+    border-color: #282828;
+}
+select:focus{
+    border-color: #282828;
+}
+
+/*STICKY FOOTER*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.wrapper {
+min-height: 100%;
+
+/* Equal to height of footer */
+/* But also accounting for potential margin-bottom of last child */
+margin-bottom: -40px;
+}
+.footer,
+.push {
+height: 27px;
+}
